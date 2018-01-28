@@ -1,0 +1,47 @@
+/*!
+ * import :
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+@import "bootstrap";
+@import "colors";
+@import "landing";
+@import "wiki";
+
+
+
+body {
+  background-color: $bg-color;
+  h1 {
+    border-bottom: 1px solid $main-color;
+  }
+}
+
+.kachel {
+  background: #fff;
+  padding: 1.2em 1.2em 1.2em 1.2em;
+  margin: 2em 0;
+  border: 1px solid #ddd;
+}
+
+.selected {
+  background-color: #f5f5f5;
+
+}
+a {
+  color: $main-color;
+  &:hover {
+    color: $main-color;
+    opacity: 0.7;
+  }
+}
+
+.nav a {
+  color: #000;
+  &:hover {
+    color: $main-color;
+    opacity: 1;
+  }
+}
